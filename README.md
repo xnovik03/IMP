@@ -1,7 +1,6 @@
 
 ---
 
-````markdown
 # Smart Home Panel with ESP32 and MQTT
 
 This project implements a control panel for a smart home using an **ESP32** microcontroller and an **SSD1306 OLED** display. The system allows users to read the current state of rooms (light, temperature) and control devices through physical buttons. Communication is handled via the **MQTT protocol**.
@@ -47,7 +46,6 @@ Developed as part of the *Microprocessor and Embedded Systems* course at **Brno 
 - Example message:
   ```json
   {"light": 1, "temperature": 18}
-````
 
 Tested using:
 
